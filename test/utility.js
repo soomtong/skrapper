@@ -6,3 +6,19 @@ exports['check url'] = function (test) {
     test.ok(!util.checkUrl('hello'), 'the string is not url');
     test.done();
 };
+
+exports['wrap url'] = function (test) {
+    util.wrapUrl('helloworld.com', function (url) {
+        test.expect(1);
+        test.equal('http://helloworld.com', url, 'url modifid fail');
+        test.done();
+    });
+};
+
+exports['no wrap url'] = function (test) {
+    util.wrapUrl('http://helloworld.com', function (url) {
+        test.expect(1);
+        test.equal('http://helloworld.com', url, 'return no equal string');
+        test.done();
+    });
+};
