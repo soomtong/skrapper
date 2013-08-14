@@ -1,27 +1,30 @@
 {
-  "name": "skrapper",
-  "version": "0.0.1",
-  "description": "custom scrapping tool",
-  "main": "/lib/skrapper.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/soomtong/skrapper.git"
-  },
-  "keywords": [
-    "scrap"
-  ],
-  "author": "soomtong@gmail.com",
-  "license": "BSD",
-  "bugs": {
-    "url": "https://github.com/soomtong/skrapper/issues"
-  },
-  "devDependencies": {
-    "nodeunit": "~0.8.1"
-  },
-  "dependencies": {
-    "commander": "~2.0.0",
-    "request": "~2.26.0",
-    "jsdom": "~0.8.3",
-    "mkdirp": "~0.3.5"
-  }
+    "name": "skrapper",
+    "version": "0.0.1",
+    "description": "custom scrapping tool",
+    "main": "/lib/skrapper.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/soomtong/skrapper.git"
+    },
+    "keywords": [
+        "scrap", "crawl"
+    ],
+    "author": "soomtong@gmail.com",
+    "license": "BSD",
+    "bugs": {
+        "url": "https://github.com/soomtong/skrapper/issues"
+    },
+    "devDependencies": {
+        "nodeunit": "~0.8.1"
+    },
+    "dependencies": {
+        "commander": "~2.0.0",
+        "request": "~2.26.0",
+        "jsdom": "~0.8.3",
+        "mkdirp": "~0.3.5"
+    },
+    "engine": {
+        "node": ">= 0.8.0"
+    }
 }
