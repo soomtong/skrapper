@@ -8,7 +8,8 @@
         "url": "https://github.com/soomtong/skrapper.git"
     },
     "keywords": [
-        "scrap", "crawl"
+        "scrap",
+        "crawl"
     ],
     "author": "soomtong@gmail.com",
     "license": "BSD",
@@ -21,7 +22,7 @@
     "dependencies": {
         "commander": "~2.0.0",
         "request": "~2.26.0",
-        "jsdom": "~0.8.3",
+        "cheerio": "~0.12.1",
         "mkdirp": "~0.3.5"
     },
     "engine": {
