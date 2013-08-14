@@ -30,3 +30,11 @@ only specify element with jquery selector style
 
 - request
 - cheerio
+
+## Version
+
+0.1 simple action `fixed`
+
+0.2 batch process from a file `planded`
+
+0.3 web interface `maybe or not`
