@@ -3,6 +3,8 @@
     "version": "0.0.1",
     "description": "custom scrapping tool",
     "main": "/lib/skrapper.js",
+    "preferGlobal": true,
+    "bin": "./lib/skrapper.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/soomtong/skrapper.git"
