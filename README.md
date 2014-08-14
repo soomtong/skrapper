@@ -3,6 +3,9 @@ skrapper
 
 Custom Web page Scrapping tools
 
+#### Dependencies Status
+
+![](https://david-dm.org/soomtong/skrapper.png)
 
 ## Install
 
